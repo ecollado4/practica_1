@@ -18,5 +18,8 @@ import mates.Matematicas;
 public class Principal{
  	public static void main(String[] args){
 		System.out.println("El número PI es " + Matematicas.generarNumeroPiIterativo(Integer.parseInt(args[0])));
+		System.out.println("numero pi recur" + Matematicas.generarNumeroPiRecursivo(Integer.parseInt(args[0]),0,0.0));
+                System.out.println("EL numero PI con lambda " + Matematicas.generarNumeroPiLambda(Integer.parseInt(args[0])));
+
 }
 }
